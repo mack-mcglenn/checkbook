@@ -41,7 +41,8 @@ def apply_deposit_amount():
     post_deposit = cur_balance + float(deposit_amount) #Since my write files are strings, I have to convert my values to floats
     # here to update my balance.
     #I improved my deposit and withdrawal functions by adding an input function which gives the user the option to view their
-    #updated balance or return to the main menu
+    #updated balance or return to the main menu. If a user inputs an unrecognized command, they receive an error message and are
+    #redirected to the main menu
     update_dep_ms= input("""Your deposit has been applied. Would you like to see your new balance?
     Press Y for yes or N to return to main menu""")
     update_balance(post_deposit)
