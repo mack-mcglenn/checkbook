@@ -1,6 +1,3 @@
-#cur_balance = 1200.00
-# post_deposit = cur_balance + make_deposit
-
 
 #My first major change was eliminating my welcome() function and my checkbook() function because they were redundant
 
@@ -139,7 +136,7 @@ while True:
 
 
  
-welcome()
+
 get_user_input()
 view_bal()
 get_deposit_amount()
